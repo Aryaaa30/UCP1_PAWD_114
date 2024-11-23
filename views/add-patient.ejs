@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Add Patient</title>
+</head>
+<body>
+    <h1>Add New Patient</h1>
+    <form action="/patients/add" method="POST">
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <label>Age:</label>
+        <input type="number" name="age" required>
+        <label>Diagnosis:</label>
+        <input type="text" name="diagnosis" required>
+        <button type="submit">Add Patient</button>
+    </form>
+</body>
+</html>
